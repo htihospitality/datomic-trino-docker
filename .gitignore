@@ -1,0 +1,18 @@
+# MacOS
+**/.DS_Store
+
+# IntelliJ
+**/.idea
+**/*.iml
+/projectFilesBackup
+
+# IntelliJ file-based project format
+*.iws
+*.ipr
+
+# Emacs
+**/.dir-locals.el
+**/.project-child
+
+# VSCode
+**/.vscode
