@@ -37,7 +37,7 @@ You can replace `"datomic/trino"` with any name of your choice, but if you do be
 When connecting Trino to a Datomic Cloud system, you will need your AWS credentials (`aws_access_key_id` and `aws_secret_access_key`) for the next step.
 
 ```
-docker run --name datomic-trino -d -p 8989:8989 [aws_access_key_id] [aws_secret_access_key]
+docker run --name datomic-trino -d -p 8989:8989 datomic/trino [aws_access_key_id] [aws_secret_access_key]
 ```
 
 Trino should now be running and available on port 8989 on your local machine.
